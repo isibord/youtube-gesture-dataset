@@ -41,7 +41,7 @@ The scripts are tested on Ubuntu 16.04 LTS and Python 3.5.2.
    * Update target channel ID. The scripts are tested for TED and LaughFactory channels.
 
 2. Execute `download_video.py`
-   * Download youtube videos, metadata, and subtitles (./videos/*.mp4, *.json, *.vtt).
+   * Download youtube videos, metadata, and subtitles (*.mp4, *.json, *.vtt).
 
 3. Execute `run_openpose.py`
    * Run [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) to extract body, hand, and face skeletons for all vidoes (./skeleton/*.pickle). 

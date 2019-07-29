@@ -204,10 +204,6 @@ def main():
     download(vid_list)
     print("finished downloading videos")
 
-    print("removing unnecessary subtitles...")
-    for f in glob.glob("*.en.vtt"):
-        os.remove(f)
-
 
 def test_fetch():
     vid_list = fetch_video_ids(my_config.YOUTUBE_CHANNEL_ID, my_config.VIDEO_SEARCH_START_DATE)
